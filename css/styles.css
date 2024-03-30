@@ -1,0 +1,235 @@
+body {
+    
+font-family: "Roboto", sans-serif;
+background-color: #ffffff;
+color: #434455;}
+
+  a {text-decoration: none;}  
+  a:hover,
+  a:focus{
+    text-decoration: none;
+    color: #404bbf;
+  }
+h2{
+    font-family: "Roboto" 
+    font-weight: 700;
+}
+h3{
+   font-weight: 500;
+}
+  
+ ul {
+  list-style-type: none;  
+    }
+  p{
+        font-size: 16px;
+        line-height: 1.5;
+        letter-spacing: 0.02em;
+  }       
+
+/*------- ---------------header---------------- */
+
+    
+.header {}
+
+  .nav {}
+
+ .web {font-family: "Raleway", sans-serif;
+ font-weight: 700;
+text-transform:uppercase;
+ font-size: 18px;
+line-height: 1.17;
+letter-spacing: 0.03em;
+ color: #4d5ae5;}
+
+    .web-logo {
+  font-family: "Raleway", sans-serif;
+        font-weight: 700;
+            font-size: 18px;
+            line-height: 1.17;
+            letter-spacing: 0.03em;
+            text-transform: uppercase;
+            color: #2e2f42;
+    }
+
+    .nav-list-item{}
+    
+       
+    
+
+    .nav-item-link {
+        font-weight: 500;
+            font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+            color: #2e2f42;
+    }
+      
+/* -------------------------------------- */
+
+    /* ----------address--------------- */
+
+    .address { 
+      font-style: normal;
+    }
+
+    .address-list {}
+       
+
+    .address-item {}
+
+    .address-link 
+    {
+        font-size: 16px;
+            line-height: 1.5;
+            letter-spacing: 0.02em;
+           color: #434455;
+          
+            
+    }
+
+/* ----------------------------------------------- */
+
+/* -----------------main page-------------- */
+.main {}
+
+.effect {
+    background-color: #2e2f42;
+}
+
+.title {font-weight: 700;
+    font-size: 56px;
+    text-align: center;
+    line-height: 1.07;
+    letter-spacing: 0.02em;
+    color: #fff;}
+
+.btn {
+  font-family: inherit;
+ rgba(0, 0, 0, 0.15);
+ background: #4d5ae5;
+ font-weight: 500;
+ font-size: 16px;
+ line-height: 1.5;
+  letter-spacing: 0.04em;
+ color: #fff;
+ cursor: pointer;
+  }   
+ .btn:hover,
+ .btn:focus{
+  text-decoration: underline;
+  background-color: #404BBF;
+ }
+  /*-------------------------------------  */
+
+ /*------------------features-------------------  */
+ .features {
+ }     
+   .f-main-hidden {   
+    clip-path: inset(50%);
+      
+      overflow: hidden;
+      white-space: nowrap;
+      
+    }
+        
+   .f-list {}
+                  
+ .f-item {}
+                  
+ .f-subtitle {
+ font-weight: 500;
+ font-size: 20px;
+  line-height: 1.2;
+ letter-spacing: 0.02em;
+  color: #2e2f42;
+  }
+        
+ .f-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+ color: #434455;
+}
+          
+  /* ------------------------------------ */
+
+ /*------------------our team -------------------  */
+  .our-team {
+    background: #f4f4fd;
+  }
+
+  .t-title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    text-transform: capitalize;
+    color: #2e2f42;}
+
+  .t-list {}
+
+  .t-item {
+    background-color: #FFFFFF
+  }
+
+  .team-image {}
+
+  .team-name {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: #2e2f42;}
+
+  .team-text {
+        color: #434455;
+  }
+/* ------------------------------------- */
+
+/* ---------------portfolio------------- */
+
+
+.portfolio {}
+
+.portfolio-name {
+  font-size: 36px;
+ line-height: 1.11;
+ letter-spacing: 0.02em;
+color: #2e2f42;
+text-transform: capitalize;
+text-align: center;
+}
+
+.oprtfolio-list {}
+
+.oppoturnity {}
+
+.portfolio-image {}
+
+.port-name {
+ font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+color: #2e2f42;
+}
+
+.port-text {
+  color: #434455;
+}
+/* ------------------------------------------------- */
+
+/* ------------------------footer------------------- */
+.logo-footer{
+  font-family: "Raleway",
+  sans-serif;
+ font-weight: 700;
+  font-size: 18px;
+  line-height: 1.17;
+   letter-spacing: 0.03em;
+   text-transform: uppercase;
+  color: #f4f4fd;
+}
+.footer-text{
+    color: #f4f4fd;
+}
