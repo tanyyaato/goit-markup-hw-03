@@ -26,14 +26,17 @@ button {
 cursor: pointer;
 }
 
-body {
+body {min-height: 100vh;
+  display: flex;
+  flex-direction: column;
     
 font-family: "Roboto", sans-serif;
 background-color: #ffffff;
 color: #434455;}
 
 a {text-decoration: none;
-padding-left: 0;}  
+padding-left: 0;
+ ;}  
 a:hover,
 a:focus{
 text-decoration: none;
@@ -60,7 +63,9 @@ letter-spacing: 0.02em;
   }       
 
 /*------- ---------------header---------------- */
-
+.main{
+    flex-grow: 1;
+}
     
 .header {
 padding-top: 24px;
@@ -144,7 +149,9 @@ color: #434455;
 /* ----------------------------------------------- */
 
 /* -----------------main page-------------- */
-.main {}
+.main {
+
+}
 
 .effect {
 background-color: #2e2f42;
@@ -251,16 +258,20 @@ padding-bottom: 72px;
 .t-list {
   display: flex;
   gap: 24px;
+  
   ;
 }
 
 .t-item{
  width: calc((100% - 3*24px) / 4);
-background-color: #FFFFFF
+background-color: #FFFFFF;
+border-radius: 0 0 4px 4px;
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
 }
 
 .team-image {
 }
+
 .description{
   text-align: center;
   padding: 32px 0;
@@ -277,12 +288,13 @@ padding-bottom: 8px;}
 color: #434455;
 }
 
-/* ------------------------------------- */
 
 /* ---------------portfolio------------- */
 
-
-.portfolio {}
+.portfolio {
+  padding-top: 133px;
+  padding-bottom: 120px;
+}
 
 .portfolio-name {
 font-size: 36px;
@@ -291,20 +303,38 @@ letter-spacing: 0.02em;
 color: #2e2f42;
 text-transform: capitalize;
 text-align: center;
+padding-bottom: 72px ;
 }
 
-.oprtfolio-list {}
+.oprtfolio-list {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 24px;
+    column-gap: 48px;
+  
 
-.oppoturnity {}
+}
+
+.oppoturnity {
+  display: block;
+  width: calc((100% - 2*24px) / 3);}
+ 
 
 .portfolio-image {}
 
 .port-name {
+  padding-bottom: 8px;
 font-size: 20px;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: #2e2f42;
 }
+.opportunity-text{
+  padding: 32px 16px;
+border-left: 1px solid #e7e9fc;
+border-right: 1px solid #e7e9fc;
+border-bottom: 1px solid #e7e9fc ;
+  }
 
 .port-text {
  color: #434455;
@@ -312,6 +342,12 @@ color: #2e2f42;
 /* ------------------------------------------------- */
 
 /* ------------------------footer------------------- */
+.effect{
+  padding: 100px 100px;
+}
+.web{
+ margin-bottom: 16px ;
+}
 .logo-footer{
   
 font-family: "Raleway",
@@ -325,4 +361,5 @@ color: #f4f4fd;
 }
 .footer-text{
 color: #f4f4fd;
+width: 264px;
 }
