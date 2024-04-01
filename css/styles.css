@@ -133,14 +133,10 @@ letter-spacing: 0.02em;
 color: #434455;
 }
 
-/* ----------------------------------------------- */
 
 /* -----------------main page-------------- */
-.main {
-}
-
-.effect {
-padding: 188px 0;
+.effect{
+  padding: 188px 0;
 background-color: #2e2f42;
 }
 
